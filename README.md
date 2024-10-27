@@ -10,3 +10,23 @@ The **Queue Simulation Tool** is a Java-based application that simulates a servi
 
 ## Project Structure
 QueueSimulationTool/ │ README.md │  └───src/ └───main/ └───java/ └───com/ └───queuesimulation/ │ QueueSimulator.java │ Customer.java │ ServiceQueue.java │ Statistics.java
+
+## Getting Started
+### Prerequisites
+- Java JDK 8 or higher installed on your machine.
+
+### Steps to Run
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/QueueSimulationTool.git
+Navigate to the project directory:
+
+cd QueueSimulationTool/src/main/java
+
+Compile the project:
+
+javac com/queuesimulation/*.java
+
+Run the simulation:
+
+java com.queuesimulation.QueueSimulator
